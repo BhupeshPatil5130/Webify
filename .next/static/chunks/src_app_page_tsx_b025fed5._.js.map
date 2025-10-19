@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/bhiupeshpatil/Downloads/Bhupesh/Webify/src/app/page.tsx"],"sourcesContent":[" \"use client\";\n import { useTRPC } from '@/trpc/client';\nexport default function Home() {\n\n  const trpc = useTRPC();\n  const {data}\n  // trpc.createAI.queryOptions({ text: 'Hello World' });\n\n  return (\n   <div>\n    <h1>Hello World</h1>\n   </div>\n  );\n}\n"],"names":[],"mappings":";;;;AACC;;;AADA;;AAEc,SAAS;;IAEtB,MAAM,OAAO,CAAA,GAAA,yHAAA,CAAA,UAAO,AAAD;IACnB,MAAM,EAAC,IAAI,EAAC;IACZ,uDAAuD;IAEvD,qBACC,6LAAC;kBACA,cAAA,6LAAC;sBAAG;;;;;;;;;;;AAGR;GAXwB;;QAET,yHAAA,CAAA,UAAO;;;KAFE","debugId":null}}]
+}
